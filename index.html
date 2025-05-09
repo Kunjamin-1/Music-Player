@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player | devChallenges.io</title>
+</head>
+<body>
+    <main>
+        <div class="card flex-property">
+            <div class="cover">
+                <img class="cover-1" src="resources/cover-1.jpg" alt="cover-1">
+            </div>
+            <div class="song-artist-name flex-property">
+                <p class="song-name">Lost in the City Lights</p>
+                <p class="artist-name">cosmo sheldrake</p>
+            </div>
+            <div class="song">
+                <audio class="forest-lullaby" src="resources/forest-lullaby-110624.mp3"></audio>
+                <audio class="lost-in-city-lights" src="resources/lost-in-city-lights-145038.mp3"></audio>
+            </div>
+            <div class="duration-progess-bar">
+            <div class="duration">
+                <div class="live"><p>00:00</p></div>
+                <div class="total"><p>00:00</p></div>
+            </div>
+            <div class="progress-bar">
+                <div class="time-line"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="previous">
+                <img src="resources/Stop_and_play_fill-1.svg" alt="">
+            </div>
+            <div class="button flex-property">
+                <img src="resources/Play_fill.svg" alt="play" class="play">
+                <img src="resources/pause_fill.svg" alt="pause" class=" pause display-none">
+            </div>
+            <div class="next">
+                <img src="resources/Stop_and_play_fill_reverse.svg" alt="next">
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
